@@ -47,9 +47,7 @@ public class Duke {
                 tasks.add(t);
                 printAddedTask(t, tasks.size());
             } else {
-                Task t = new Todo(input);
-                tasks.add(t);
-                printAddedTask(t, tasks.size());
+                System.out.println("Sorry, I don't know what that means.");
             }
             input = sc.nextLine();
         }
