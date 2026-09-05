@@ -23,6 +23,7 @@ public class Duke {
             input = sc.nextLine();
         }
         printFarewell();
+        sc.close();
     }
 
     private static void runCommand(String input, ArrayList<Task> tasks) throws DukeExceptions {
